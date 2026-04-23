@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+<title>Justine Maglente</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  
+
+<!-- NAVBAR -->
+<nav class="navbar" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo">JM</a>
+
+    <button class="hbg" id="hbg" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="nlinks">
+      <li><a href="#home"     class="nl active">Home</a></li>
+      <li><a href="#about"    class="nl">About</a></li>
+      <li><a href="#skills"   class="nl">Skills</a></li>
+      <li><a href="#projects" class="nl">Projects</a></li>
+      <li><a href="#hobbies"  class="nl">Hobbies</a></li>
+      <li><a href="#contact"  class="nl">Contact</a></li>
+    </ul>
+
+    <button class="tog" id="tog" aria-label="Toggle theme">
+      <i class="fas fa-moon" id="ico-moon"></i>
+      <i class="fas fa-sun"  id="ico-sun" style="display:none"></i>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="ph-wrap">
+      <img class="hero-img" src="profile3.jpg" alt="Justine Maglente"/>
+      <div class="ring1"></div>
+      <div class="ring2"></div>
+    </div>
+
+    <div class="hero-text">
+      <p class="h-hi">Hey there, I'm</p>
+      <h1 class="h-name">Justine Maglente</h1>
+      <p class="h-role"><span id="typed"></span><span class="blink">|</span></p>
+      <p class="h-bio">
+        Passionate about crafting beautiful digital experiences.<br/>
+        I turn ideas into interactive, real-world solutions.
+      </p>
+      <div class="h-btns">
+        <a href="#projects" class="btn btn-p">View My Work</a>
+        <a href="#contact"  class="btn btn-o">Contact Me</a>
+      </div>
+      <div class="h-soc">
+        <a href="#" target="_blank" rel="noopener" aria-label="Facebook"  class="soc-fb"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="X/Twitter" class="soc-x"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="Instagram" class="soc-ig"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>Scroll</span><i class="fas fa-chevron-down"></i></div>
+</section>
+
+<!-- ABOUT -->
+<section class="sec about" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="aimg-wrap rv">
+        <img class="about-img" src="aboutmee.jpg" alt="About Justine"/>
+        <div class="exp-badge">
+          <span class="exp-num">2+</span>
+          <span class="exp-lbl">Years of<br>Experience</span>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="sec-title" style="text-align:left">About <span>Me</span></h2>
+        <p class="ab-p rv">
+          Hi! I'm <strong>Justine</strong>, a young passionate web developer based in
+          <strong>Valenzuela City, Metro Manila, Philippines</strong>. I love building modern, responsive,
+          and user-friendly websites that leave a lasting impression.
+        </p>
+        <p class="ab-p rv">
+          When I'm not coding, you'll find me sketching and drawing,
+          exploring photography, or gaming with friends.
+          I believe creativity and technology go hand-in-hand.
+        </p>
+
+        <div class="info-g">
+          <div class="ii rv"><i class="fas fa-graduation-cap"></i><div><span class="il">Education</span><span class="iv">BS Information Technology</span></div></div>
+          <div class="ii rv"><i class="fas fa-map-marker-alt"></i><div><span class="il">Location</span><span class="iv">Valenzuela City, Metro Manila</span></div></div>
+          <div class="ii rv"><i class="fas fa-briefcase"></i><div><span class="il">Availability</span><span class="iv">Open to Work</span></div></div>
+          <div class="ii rv"><i class="fas fa-language"></i><div><span class="il">Languages</span><span class="iv">English, Filipino</span></div></div>
+        </div>
+        <a href="#" class="btn btn-p rv" download><i class="fas fa-download"></i> Download Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="sec" id="skills">
+  <div class="wrap">
+    <div class="center">
+      <span class="sec-tag">What I Know</span>
+      <h2 class="sec-title">My <span>Skills</span></h2>
+    </div>
+
+    <div class="skill-cards">
+      <div class="sc rv"><i class="fab fa-html5"></i><span>HTML5</span></div>
+      <div class="sc rv"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+      <div class="sc rv"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+      <div class="sc rv"><i class="fab fa-python"></i><span>Python</span></div>
+      <div class="sc rv"><i class="fab fa-git-alt"></i><span>Git</span></div>
+      <div class="sc rv"><i class="fab fa-figma"></i><span>Figma</span></div>
+    </div>
+
+    <div class="bars">
+      <div class="rv"><div class="bi-top"><span>HTML & CSS</span><span>90%</span></div><div class="btrack"><div class="bfill" data-w="90"></div></div></div>
+      <div class="rv"><div class="bi-top"><span>JavaScript</span><span>80%</span></div><div class="btrack"><div class="bfill" data-w="80"></div></div></div>
+      <div class="rv"><div class="bi-top"><span>Figma</span><span>60%</span></div><div class="btrack"><div class="bfill" data-w="60"></div></div></div>
+      <div class="rv"><div class="bi-top"><span>Python</span><span>65%</span></div><div class="btrack"><div class="bfill" data-w="65"></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="sec projects" id="projects">
+  <div class="wrap">
+    <div class="center">
+      <span class="sec-tag">What I've Built</span>
+      <h2 class="sec-title">My <span>Projects</span></h2>
+    </div>
+    <div class="proj-grid">
+
+      <div class="pc rv">
+        <div class="pc-img">
+          <img src="orderingsystem.jpg" alt="Project 1"/>
+          <div class="pc-ov">
+            <a href="https://orderingsystem101.netlify.app/" target="_blank" rel="noopener" class="ovb"><i class="fas fa-external-link-alt"></i> Live</a>
+            <a href="https://github.com/justinellkahsgmsjsk/orderingsystemtrial.git" target="_blank" rel="noopener" class="ovb"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="pc-body">
+          <span class="pc-cat">Web App</span>
+          <h3 class="pc-title">Ordering System</h3>
+          <p class="pc-desc">​A seamless digital solution designed to streamline transaction workflows. This system manages the full lifecycle of an order—from item selection and cart management to real-time status updates—ensuring a smooth and accurate experience for both users and administrators.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span></div>
+        </div>
+      </div>
+
+      <div class="pc rv">
+        <div class="pc-img">
+          <img src="taptheball.jpg" alt="Project 2"/>
+          <div class="pc-ov">
+            <a href="https://taptheball.netlify.app//" target="_blank" rel="noopener" class="ovb"><i class="fas fa-external-link-alt"></i> Live</a>
+            <a href="https://github.com/justinellkahsgmsjsk/TapBallGame" target="_blank" rel="noopener" class="ovb"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="pc-body">
+          <span class="pc-cat">Mini Game</span>
+          <h3 class="pc-title">Tap the Ball</h3>
+          <p class="pc-desc">A fast-paced, high-intensity reaction game that tests your speed and precision. The objective is simple: tap the ball before it vanishes or speeds up. As the difficulty scales, players must rely on sharp reflexes to keep their streak alive and climb the leaderboard.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span></div>
+        </div>
+      </div>
+
+      <div class="pc rv">
+        <div class="pc-img">
+          <img src="colorpallet.jpg" alt="Project 3"/>
+          <div class="pc-ov">
+            <a href="https://colorpalletgrabgenerator.netlify.app/" target="_blank" rel="noopener" class="ovb"><i class="fas fa-external-link-alt"></i> Live</a>
+            <a href="https://github.com/justinellkahsgmsjsk/colorpalletgrabgenerator" target="_blank" rel="noopener" class="ovb"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="pc-body">
+          <span class="pc-cat">Web App</span>
+          <h3 class="pc-title">Color Pallet Generator</h3>
+          <p class="pc-desc">A data visualization dashboard with real-time updates and analytics.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- HOBBIES -->
+<section class="sec" id="hobbies">
+  <div class="wrap">
+    <div class="center">
+      <span class="sec-tag">My Side Quest </span>
+      <h2 class="sec-title">My <span>Hobbies</span></h2>
+    </div>
+
+    <div class="hob-filters">
+      <button class="hf active" data-
+      <button class="hf" data-filter="drawing">Drawing</button>
+      <button class="hf" data-filter="photo">Photography</button>
+      <button class="hf" data-filter="gaming">Gaming</button>
+    </div>
+
+    <div class="hob-grid" id="hob-grid">
+      <div class="hob-item rv" data-cat="drawing">
+        <img src="art3.jpg" alt="Drawing 1" loading="lazy"/>
+        <div class="hob-cap"><h4>My SHS</h4><p>Sketch Pen · 2023</p></div>
+      </div>
+      <div class="hob-item rv" data-cat="drawing">
+        <img src="art4.jpg" alt="Drawing 2" loading="lazy"/>
+        <div class="hob-cap"><h4>My House</h4><p> Sketch Pen · 2023</p></div>
+      </div>
+      <div class="hob-item rv" data-cat="drawing">
+        <img src="art5.jpg" alt="Drawing 3" loading="lazy"/>
+        <div class="hob-cap"><h4>Maxy Scooter</h4><p>Sketch Pen · 2023</p></div>
+      </div>
+      <div class="hob-item rv" data-cat="photo">
+        <img src="sea.jpg" alt="Photo 1" loading="lazy"/>
+        <div class="hob-cap"><h4>Golden Hour</h4><p>Landscape · 2024</p></div>
+      </div>
+      <div class="hob-item rv" data-cat="photo">
+        <img src="bigots.jpg" alt="Photo 2" loading="lazy"/>
+        <div class="hob-cap"><h4>Street Life</h4><p>Street photography · 2024</p></div>
+      </div>
+      <div class="hob-item rv" data-cat="photo">
+        <img src="plant.jpg" alt="Photo 3" loading="lazy"/>
+        <div class="hob-cap"><h4>Nature Close-up</h4><p>Macro photography · 2024</p></div>
+      </div>
+      <div class="hob-item rv" data-cat="gaming">
+        <img src="mobile legends.jpeg" alt="Mobile Legends" loading="lazy"/>
+        <div class="hob-cap"><h4>My Setup</h4><p>Gaming station</p></div>
+      </div>
+      <div class="hob-item rv" data-cat="gaming">
+        <img src= "delta force.jpeg" alt="Delta Force" loading="lazy"/>
+        <div class="hob-cap"><h4>Tournament Run</h4><p>Local esports event</p></div>
+         <div class="hob-item rv" data-cat="gaming">
+        <img src= "monoposto.jpg" alt="Monoposto" loading="lazy"/>
+        <div class="hob-cap"><h4>Tournament Run</h4><p>Local esports event</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+  <button class="lb-close" id="lb-close" aria-label="Close lightbox">&times;</button>
+  <img class="lb-img" id="lb-img" src="" alt=""/>
+</div>
+
+<!-- CONTACT -->
+<section class="sec contact" id="contact">
+  <div class="wrap">
+    <div class="center">
+      <span class="sec-tag">Let's Talk</span>
+      <h2 class="sec-title">Contact <span>Me</span></h2>
+    </div>
+    <div class="contact-grid">
+
+      <div>
+        <p class="c-intro rv">
+          Have a project in mind or just want to say hi?
+          I'd love to hear from you — reach out anytime!
+        </p>
+        <div class="c-items">
+          <div class="ci rv">
+            <div class="ci-ico"><i class="fas fa-envelope"></i></div>
+            <div><span class="ci-lbl">Email</span><span class="ci-val">justinemaglente17@gmail.com</span></div>
+          </div>
+          <div class="ci rv">
+            <div class="ci-ico"><i class="fas fa-phone"></i></div>
+            <div><span class="ci-lbl">Phone</span><span class="ci-val">+63 9936812400</span></div>
+          </div>
+          <div class="ci rv">
+            <div class="ci-ico"><i class="fas fa-map-marker-alt"></i></div>
+            <div><span class="ci-lbl">Location</span><span class="ci-val">Valenzuela City, Metro Manila, Philippines</span></div>
+          </div>
+        </div>
+
+        <div class="c-soc rv">
+          <a href="https://www.facebook.com/share/1Ab8rPyEGD/" target="_blank" rel="noopener" aria-label="Facebook"  class="soc-fb"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/JustineMaglent3" target="_blank" rel="noopener" aria-label="X/Twitter" class="soc-x"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.instagram.com/kiyo.bluu?igsh=MmNuOXkzM2xwYTh1" target="_blank" rel="noopener" aria-label="Instagram" class="soc-ig"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="form-box rv">
+        <form id="cform" novalidate>
+          <div class="fg">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required minlength="2"/>
+          </div>
+          <div class="fg">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="john@example.com" required/>
+          </div>
+          <div class="fg">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Project Inquiry" required minlength="3"/>
+          </div>
+          <div class="fg">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about your project..." required minlength="10"></textarea>
+          </div>
+          <button type="submit" class="btn btn-p btn-full" id="sbtn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="f-ok" id="fok" role="status">✅ Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <p>&copy; <span id="yr"></span> <strong>Justine Maglente</strong>. All rights reserved.</p>
+    <p class="f-sub">Designed &amp; Built with ❤️</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script
+  src="https://www.tuqlas.com/chatbot.js"
+  data-key="tq_live_c297fb43e55b77ea144f30444dae69470d1e4b22"
+  data-api="https://www.tuqlas.com"
+  defer
+></script>
+</body>
+</html>
